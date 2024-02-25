@@ -153,6 +153,7 @@ body {
   position: relative;
 } */
 
+
 .top-content {
   padding: 83px 0 162px 0;
   max-width: 1193px;
@@ -267,9 +268,14 @@ body {
   flex-wrap: wrap;
 }
 
+:root {
+  --mw: 336px
+}
+
 .feat_card {
   margin: 40px 0;
   /* border: 1px solid blue; */
+  max-width: var(--mw);
 }
 
 .feat_card img {}
@@ -281,6 +287,8 @@ body {
   line-height: 29px;
 }
 
+
+
 .feat_card p {
   margin: 0 0 25px 0;
   color: rgb(102, 102, 102);
@@ -288,6 +296,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 150%;
+  /* max-width: 300px; */
 }
 
 .feat_card a {
@@ -298,6 +307,7 @@ body {
   padding: 40px 34px;
   box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
   /* border: 1px solid blue; */
+  max-width: var(--mw);
 }
 
 .feat_big_card h3 {
@@ -314,6 +324,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 150%;
+  /* max-width: 300px; */
 }
 
 .feat_big_card a {
